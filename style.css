@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{ height: 100%;}
+/* nav*/
+header{
+    background-color: #73b4ff;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 8px;
+}
+.logo h3{
+    cursor: pointer;
+}
+.logo h3:hover{
+    opacity: 0.7;
+}
+.icons-header svg{
+    cursor: pointer;
+}
+.icons-header{ 
+    margin-top: 9px;
+}
+.icons-header svg:hover{
+    opacity: 0.7;
+}
+.info-header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left:0 8px;
+}
+.icons-header{
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+/*menu*/
+.saidebar{
+    width: 20%;
+    background-color:white;
+    height: 100%;
+}
+.saidebar a.saidebar-active{
+    border-left: 4px solid #73b4ff;
+    background-color:rgb(245,245,245);
+    color: #777;
+    font-weight: bold;
+}
+.saidebar a.sidebar-active > svg {
+    color:#777;
+}
+.saidebar h3{
+    color: #333;
+    font-size: 20px;
+    margin: 10px;
+}
+.saidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #444;
+    
+}
+.saidebar a > svg{
+    color: #444;
+}
+.saidebar a:hover{ 
+    border-left: 4px solid #73b4ff;
+    background-color:rgb(245,245,245);
+    color: #777;
+    font-weight: bold;
+}
+.saidebar a:hover .saidebar a > svg{
+    color: #777;
+}
+/*conteudo*/
+.content{
+    width: 80%;
+    background-color: rgba( 230, 230, 250, 1 );
+    padding: 20px;
+}
+.titulo-secao{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.titulo-secao h2{
+    font-size: 19px;
+}
+.titulo-secao p{
+    font-size: 14px;
+}
+.titulo-secao > svg{
+    color: #73b4ff;
+}
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+}
+/*caixas*/
+.box-info{
+    width: 100%;
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-info-single{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin:0 10px;
+    padding:30px;
+}
+.box-info-single svg{
+    font-size: 28px;
+}
+.feed{
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    margin-top: 1%;
+}
+.feed-single{
+    display: flex;
+    justify-content: space-between;
+}
+.feed-text span{
+    color: black;
+}
+.feed-text svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 120px;
+    color:#73b4ff;
+}
+.bell{
+    color:#73b4ff;
+}
+.i { color: violet}
+.feed.time{
+    color:#444;
+}
